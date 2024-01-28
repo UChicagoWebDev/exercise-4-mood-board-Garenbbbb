@@ -12,12 +12,12 @@
     <h1>Mood Board</h1>
     <div class="search">
       <div class="form">
-        <input/>
-        <button id="runSearchButton">Search</button>
+        <input type="text" id="search-input" placeholder="Enter your search query">
+        <button id="runSearchButton" onclick="runSearch()">Search</button>
       </div>
       <div class="suggestions">
         <h3>Suggested Searches</h3>
-        <ul>
+        <ul class="related-concept">
           <li>Cats</li>
           <li>More Cats</li>
           <li>Lol Cats</li>
@@ -55,36 +55,6 @@
   </div>
 
   <div id="board">
-    <div class="savedImage"> <!-- These are just examples, remove them for your submission -->
-      <img src="https://examplecat.com/cat.png">
-    </div>
-    <div class="savedImage"> <!-- These are just examples -->
-      <img src="https://i0.wp.com/katzenworld.co.uk/wp-content/uploads/2019/06/funny-cat.jpeg?fit=1920%2C1920&ssl=1">
-    </div>    
-    <div class="savedImage"> <!-- These are just examples -->
-      <img src="https://examplecat.com/cat.png">
-    </div>
-    <div class="savedImage"> <!-- These are just examples -->
-      <img src="https://www.alleycat.org/wp-content/uploads/2019/03/FELV-cat.jpg">
-    </div>
-    <div class="savedImage"> <!-- These are just examples -->
-      <img src="https://i0.wp.com/katzenworld.co.uk/wp-content/uploads/2019/06/funny-cat.jpeg?fit=1920%2C1920&ssl=1">
-    </div>    
-    <div class="savedImage"> <!-- These are just examples -->
-      <img src="https://examplecat.com/cat.png">
-    </div>
-    <div class="savedImage"> <!-- These are just examples -->
-      <img src="https://www.alleycat.org/wp-content/uploads/2019/03/FELV-cat.jpg">
-    </div>
-    <div class="savedImage"> <!-- These are just examples -->
-      <img src="https://i0.wp.com/katzenworld.co.uk/wp-content/uploads/2019/06/funny-cat.jpeg?fit=1920%2C1920&ssl=1">
-    </div>
-    <div class="savedImage"> <!-- These are just examples -->
-      <img src="https://www.alleycat.org/wp-content/uploads/2019/03/FELV-cat.jpg">
-    </div>
-    <div class="savedImage"> <!-- These are just examples -->
-      <img src="https://i0.wp.com/katzenworld.co.uk/wp-content/uploads/2019/06/funny-cat.jpeg?fit=1920%2C1920&ssl=1">
-    </div>
   </div>
 
   <script src="apikey.js"></script>
